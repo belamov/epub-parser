@@ -1,0 +1,4 @@
+composer.phar
+vendor
+.idea
+belamov.epubparser/tests/images

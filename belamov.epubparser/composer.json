@@ -1,0 +1,30 @@
+{
+  "name": "belamov/EpubParser",
+  "description": "Модуль позволяет сохранять книги формата epub в инфоблоки",
+  "keywords": [
+    "bitrix",
+    "Битрикс",
+    "d7",
+    "модуль",
+    "инфоблоки",
+    "epub",
+    "книги",
+    "парсинг"
+  ],
+  "type": "bitrix-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Belamov",
+      "email": "dmitry@belamov.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "belamov\\epubparser\\": "lib/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5"
+  }
+}
